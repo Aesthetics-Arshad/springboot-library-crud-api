@@ -92,7 +92,9 @@ Working with real databases
 👋 About Me
 I'm Arshad Ashrafi, a Computer Science student who loves building backend systems and learning by doing real projects.
 
-📬 Connect with me on LinkedIn
+📬 Connect with me on LinkedIn - www.linkedin.com/in/
+arshadashrafi9792
+
 📌 Location: India
 
 🙌 Thank You!
