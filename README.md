@@ -1,21 +1,20 @@
-# 📚 Book Library REST API
+ Book Library REST API
 
 Hi! This is a simple backend project I built using **Java**, **Spring Boot**, and **MySQL**. It’s a RESTful API that manages books in a library — you can add, view, update, and delete books easily.
 
 This project helped me learn how to build real-world APIs, connect with databases, and handle HTTP requests like GET, POST, PUT, and DELETE.
 
----
 
-## 🔧 What This Project Can Do
+ What This Project Can Do
 
-✅ Add a new book to the library  
-🔍 Get all books or search by ID  
-✏️ Update if a book is available or not  
-❌ Delete a book from the system
+- Add a new book to the library  
+- Get all books or search by ID  
+- Update if a book is available or not  
+- Delete a book from the system
 
----
 
-## 🛠️ Tools & Technologies Used
+
+ Tools & Technologies Used
 
 - Java 22
 - Spring Boot
@@ -25,9 +24,9 @@ This project helped me learn how to build real-world APIs, connect with database
 - IntelliJ IDEA
 - Postman (for testing the API)
 
----
 
-## 📁 Project Structure
+
+ Project Structure
 
 library-api/
 ├── controller/ // Handles all API requests
@@ -38,25 +37,17 @@ library-api/
 │ └── application.properties // DB connection config
 └── LibraryApiApplication.java // Main Spring Boot app runner
 
-yaml
-Copy
-Edit
-
----
-
-## 📌 API Endpoints Summary
+ API Endpoints Summary
 
 | Method | URL | What it does |
-|--------|-----|---------------|
 | GET    | `/books` | Shows all books |
 | GET    | `/books/{id}` | Gets one book by its ID |
 | POST   | `/books` | Adds a new book |
 | PUT    | `/books/{id}/availability?available=true/false` | Updates a book’s availability |
 | DELETE | `/books/{id}` | Deletes a book by ID |
 
----
 
-## 💻 How to Run This Project
+ How to Run This Project
 
 1. Make sure you have Java, MySQL, and Maven installed.
 2. Create a database in MySQL named: `library-db`
@@ -75,8 +66,7 @@ PUT Request: Update Book Availability
 http://localhost:8080/library/books/1/availability?available=false
 
 This updates the availability of the book with ID = 1 to false (unavailable).
-
-🧠 What I Learned
+- What I Learned
 This project taught me:
 
 How REST APIs work in real life
@@ -88,11 +78,10 @@ Writing clean service-layer logic
 Testing APIs using Postman
 
 Working with real databases
-
-👋 About Me
+- About Me
 I'm Arshad Ashrafi, a Computer Science student who loves building backend systems and learning by doing real projects.
 
-📬 Connect with me on LinkedIn - www.linkedin.com/in/
+- Connect with me on LinkedIn - www.linkedin.com/in/
 arshadashrafi9792
 
 📌 Location: India
